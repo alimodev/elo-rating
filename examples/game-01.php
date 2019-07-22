@@ -1,10 +1,10 @@
 <?php
 
-require('elo.php');
+require('../src/EloRating.php');
 
 // https://www.hackerearth.com/blog/developers/elo-rating-system-common-link-facemash-chess/
 
-$elo = new EloRating();
+$elo = new Alimodev\EloRating();
 $elo->setFactor(24);
 
 echo "<h4>Factor: 24 (The Chess Federation has decided that !)</h4>";
@@ -27,4 +27,4 @@ $elo->printPlayers();
 ?>
 
 <br /><hr />
-<a href="index.php">Go Back..</a>
+<a href="../index.php">Go Back..</a>

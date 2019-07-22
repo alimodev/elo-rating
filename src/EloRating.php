@@ -6,6 +6,8 @@
  * https://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details
  * Implementation by Alireza Mortazavi
  */
+namespace Alimodev;
+
 class EloRating
 {
   /**

@@ -1,8 +1,8 @@
 <?php
 
-require('elo.php');
+require('../src/EloRating.php');
 
-$elo = new EloRating();
+$elo = new Alimodev\EloRating();
 $elo->setFactor(24);
 
 $elo->addPlayer("Gary");
@@ -29,4 +29,4 @@ $elo->printPlayers();
 ?>
 
 <br /><hr />
-<a href="index.php">Go Back..</a>
+<a href="../index.php">Go Back..</a>
